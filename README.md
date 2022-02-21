@@ -10,7 +10,7 @@ clusterCons contains functions for the calculation of robustness measures for cl
 
 The functions allow the user to select several algorithms to use in the re-sampling scheme and with any of the parameters that the algorithm would normally take.
 
-### Installation
+### Installation
 
 The package can be installed from either .tar.gz (*nix) or .ZIP (windows) executables via the release on the right hand side of this web-page. These can be installed using the usual methods for R package installation either at the command line or within R.
 
