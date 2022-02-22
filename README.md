@@ -14,4 +14,4 @@ The functions allow the user to select several algorithms to use in the re-sampl
 
 The package can be installed from either .tar.gz (*nix) or .ZIP (windows) executables via the release on the right hand side of this web-page. These can be installed using the usual methods for R package installation either at the command line or within R.
 
-clusterCons has recently been updated to be compatible with R version 4.1.2 and will soon re-appear on the CRAN repository after an absence of a few years. We will update this page as soon as it is available.
+clusterCons has recently been updated to be compatible with R version 4.1.2 and is now available on the CRAN repository after an absence of a few years. You can access it directly here - https://cran.r-project.org/package=clusterCons
