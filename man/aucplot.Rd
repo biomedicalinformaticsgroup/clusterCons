@@ -16,6 +16,8 @@ aucplot(x)
 	}
 }
 
+\value{No return value, called for side effects}
+
 \references{
 Merged consensus clustering to assess and improve class discovery with microarray data. Simpson TI, Armstrong JD and Jarman AP. BMC Bioinformatics 2010, 11:590.
 }

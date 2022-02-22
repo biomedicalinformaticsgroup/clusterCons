@@ -40,13 +40,13 @@ mr$cluster1;
 
 #now lets move to looking at some comparisons
 #calculate the areas under the curves
-ac <- aucs(cmr)
+ac <- aucs(cmr);
 
 #plot out the auc curves
-aucplot(ac)
+aucplot(ac);
 
 #now lets calculate the deltak
-dk <- deltak(ac)
+dk <- deltak(ac);
 
 #plot out the results to find optimal class number
 dkplot(dk)

@@ -95,42 +95,14 @@ data(sim_profile);
 
 #perform a group of re-sampling clustering experiments accepting default parameters 
 #for the clustering algorithms
-#cmr <- cluscomp(
-# sim_profile,
-# algorithms=list('kmeans','pam'),
-# merge=1,
-# clmin=2,
-# clmax=5,
-# reps=5
-# )
-
-#simple example
-#cmr <- cluscomp(sim_profile,clmin=2,clmax=5,prop=0.8,reps=5)
-
-#more complex example
-alp <- list(method='complete')
-#cmr <- cluscomp(
-# sim_profile,
-# algorithms=list('agnes','pam'),
-# alparams=list(alp,list()),
-# clmin=4,
-# clmax=4,
-# prop=0.8,
-# reps=5
-# )
-
-#even more complex example
-pamp <- list(metric='manhattan')
 cmr <- cluscomp(
-  sim_profile,
-  algorithms=list('agnes','pam'),
-  alparams=list(alp,pamp),
-  alweights=list(1,0.7),
-  clmin=3,
-  clmax=5,
-  prop=0.8,
-  reps=5,merge=1
-  )
+ sim_profile,
+ algorithms=list('kmeans','pam'),
+ merge=1,
+ clmin=2,
+ clmax=5,
+ reps=5
+)
 
 #display resulting matrices contained in the consensus result list
 summary(cmr);

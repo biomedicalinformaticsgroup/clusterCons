@@ -4,7 +4,7 @@
 # Author: Dr. T. Ian Simpson
 # Affiliation : University of Edinburgh
 # E-mail : ian.simpson@ed.ac.uk
-# Version : 1.1
+# Version : 1.2
 ###############################################################################
 
 #read in required libraries
